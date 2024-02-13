@@ -1,0 +1,24 @@
+/* Estilos para la lista principal */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+/* Estilos para cada ítem de la lista */
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Estilos para los enlaces al pasar el mouse */
+a:hover {
+    color: #007bff; /* Cambia el color al azul al pasar el mouse */
+}

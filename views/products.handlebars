@@ -1,0 +1,10 @@
+<ul>
+    <li><a href="/products">Ver todos los productos</a></li>
+    <li><a href="/products?stock">Ver unicamente con stock</a></li>
+</ul>
+
+<ul>
+    {{#each products}}
+        <li><a href="/products/{{this._id}}">{{this.title}}</a></li>
+    {{/each}}
+</ul>
